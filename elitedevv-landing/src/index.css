@@ -1,0 +1,142 @@
+/* Убрали импорт шрифта, как просил */
+
+* {
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  font-family: monospace, monospace;
+  color: #ddd; /* светло-серый */
+  line-height: 1.5;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #444;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 12px;
+}
+
+.language-switcher button {
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  color: #aaa; /* серый */
+}
+
+.language-switcher button:hover {
+  transform: scale(1.2);
+  color: #fff; /* белый */
+}
+
+.language-switcher button.active {
+  color: #fff; /* белый */
+  transform: scale(1.4);
+}
+
+main {
+  margin-top: 40px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #eee; /* почти белый */
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 8px 0 24px;
+  text-align: center;
+  color: #bbb; /* средний серый */
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #ccc; /* светло-серый */
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  padding-left: 20px;
+  position: relative;
+  color: #ccc; /* светло-серый */
+}
+
+ul li::before {
+  content: "•";
+  color: #888; /* темный серый для буллета */
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.description pre {
+  white-space: pre-wrap;
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 40px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.contact a {
+  color: #ddd; /* ссылки тоже светло-серые */
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: #fff; /* на ховер белый */
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  ul li {
+    font-size: 1rem;
+  }
+}
