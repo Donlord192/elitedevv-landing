@@ -28,6 +28,29 @@ export const translations = {
       "🔐 Confidential anonymous projects (no logs)",
       "⚡ API integration & backend solutions",
     ],
+    faqTitle: "Questions & Answers",
+    faq: {
+      title: "Questions and Answers",
+      list: [
+        {
+          q: "What technologies do you use?",
+          a: "Main stack: C# (.NET), Node.js, React, Telegram Bot API, SQL, and automation tools (Selenium, Puppeteer)."
+        },
+        {
+          q: "Do you work with confidential or anonymous projects?",
+          a: "Yes. I can deliver solutions with no logs, encrypted data flow, and full anonymity."
+        },
+        {
+          q: "Can you integrate payment systems?",
+          a: "Yes. I work with crypto payments, Telegram payments, and custom payment APIs."
+        },
+        {
+          q: "Do you provide support after delivery?",
+          a: "Yes. I offer bug fixes and help with deployment if needed."
+        }
+      ]
+    },
+    footerRights: "© All rights reserved",
   },
   ru: {
     title: "Elitedevv",
@@ -58,6 +81,29 @@ export const translations = {
       "🔐 Конфиденциальные анонимные проекты (без логов)",
       "⚡ Интеграция API и backend решения",
     ],
+    faqTitle: "Вопросы и ответы",
+    faq: {
+      title: "Вопросы и ответы",
+      list: [
+        {
+          q: "Какие технологии вы используете?",
+          a: "Основной стек: C# (.NET), Node.js, React, Telegram Bot API, SQL и инструменты автоматизации (Selenium, Puppeteer)."
+        },
+        {
+          q: "Вы работаете с конфиденциальными проектами?",
+          a: "Да. Выполняю проекты без логов, с шифрованием и полной анонимностью."
+        },
+        {
+          q: "Можно ли интегрировать платёжные системы?",
+          a: "Да. Работаю с крипто-платежами, Telegram-платежами и сторонними API."
+        },
+        {
+          q: "Вы оказываете поддержку после сдачи?",
+          a: "Да. Исправляю баги и помогаю с развёртыванием при необходимости."
+        }
+      ]
+    },
+    footerRights: "© Все права защищены",
   },
   uk: {
     title: "Elitedevv",
@@ -88,6 +134,29 @@ export const translations = {
       "🔐 Конфіденційні анонімні проєкти (без логів)",
       "⚡ Інтеграція API та backend рішення",
     ],
+    faqTitle: "Питання та відповіді",
+    faq: {
+      title: "Питання та відповіді",
+      list: [
+        {
+          q: "Які технології ви використовуєте?",
+          a: "Основний стек: C# (.NET), Node.js, React, Telegram Bot API, SQL і інструменти автоматизації (Selenium, Puppeteer)."
+        },
+        {
+          q: "Чи працюєте ви з конфіденційними проєктами?",
+          a: "Так. Реалізую рішення без логів, із шифруванням та повною анонімністю."
+        },
+        {
+          q: "Чи можете ви інтегрувати платіжні системи?",
+          a: "Так. Працюю з криптоплатежами, Telegram-платежами та сторонніми API."
+        },
+        {
+          q: "Чи надаєте ви підтримку після здачі проєкту?",
+          a: "Так. Виправляю баги та допомагаю з розгортанням за потреби."
+        }
+      ]
+    },
+    footerRights: "© Всі права захищені",
   },
   nl: {
     title: "Elitedevv",
@@ -118,5 +187,28 @@ export const translations = {
       "🔐 Vertrouwelijke anonieme projecten (geen logs)",
       "⚡ API-integratie & backend oplossingen",
     ],
+    faqTitle: "Vragen en antwoorden",
+    faq: {
+      title: "Vragen en antwoorden",
+      list: [
+        {
+          q: "Welke technologieën gebruik je?",
+          a: "Hoofdstack: C# (.NET), Node.js, React, Telegram Bot API, SQL en automatiseringstools (Selenium, Puppeteer)."
+        },
+        {
+          q: "Werk je met vertrouwelijke of anonieme projecten?",
+          a: "Ja. Ik lever oplossingen zonder logs, versleutelde gegevensstromen en volledige anonimiteit."
+        },
+        {
+          q: "Kun je betalingen integreren?",
+          a: "Ja. Ik werk met crypto-betalingen, Telegram-betalingen en aangepaste betaal-API's."
+        },
+        {
+          q: "Bied je ondersteuning na levering?",
+          a: "Ja. Ik bied bugfixes en hulp bij implementatie indien nodig."
+        }
+      ]
+    },
+    footerRights: "© Alle rechten voorbehouden",
   },
 };
