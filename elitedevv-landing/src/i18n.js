@@ -12,6 +12,7 @@ export const translations = {
     skillList: [
       "C# / .NET",
       "Node.js",
+      "Python",
       "Telegram Bots",
       "Web Scraping",
       "Selenium / Automation",
@@ -65,6 +66,7 @@ export const translations = {
     skillList: [
       "C# / .NET",
       "Node.js",
+      "Python",
       "Телеграм-боты",
       "Веб-скрапинг",
       "Selenium / Автоматизация",
@@ -118,6 +120,7 @@ export const translations = {
     skillList: [
       "C# / .NET",
       "Node.js",
+      "Python",
       "Телеграм-боти",
       "Веб-скрапінг",
       "Selenium / Автоматизація",
@@ -171,6 +174,7 @@ export const translations = {
     skillList: [
       "C# / .NET",
       "Node.js",
+      "Python",
       "Telegram-bots",
       "Web scraping",
       "Selenium / Automatisering",
